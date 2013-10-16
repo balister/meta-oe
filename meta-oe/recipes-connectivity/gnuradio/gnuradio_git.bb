@@ -44,6 +44,8 @@ do_compile_prepend() {
     cp ${S}/gr-vocoder/lib/codec2/defines.h ${OECMAKE_BUILDPATH}/gr-vocoder/lib/codec2
 }
 
+ALLOW_EMPTY_${PN} = "1"
+
 PACKAGES = "gnuradio-dbg gnuradio-analog gnuradio-audio gnuradio-blocks \
             gnuradio-channels gnuradio-ctrlport gnuradio-digital gnuradio-fec gnuradio-fft \
             gnuradio-filter gnuradio-gr gnuradio-grc gnuradio-gru \

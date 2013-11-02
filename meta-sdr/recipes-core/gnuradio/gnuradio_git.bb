@@ -7,6 +7,10 @@ LIC_FILES_CHKSUM = "file://COPYING;md5=d32239bcb673463ab874e80d47fae504"
 DEPENDS = "gsl fftwf python alsa-lib boost cppunit \
            swig-native python-numpy python-cheetah-native orc"
 
+TOOLCHAIN_HOST_TASK_append = " nativesdk-python-cheetah     \
+         nativesdk-python-netserver nativesdk-python-pprint \
+         nativesdk-python-pickle nativesdk-orc nativesdk-swig" 
+
 DEFAULT_PREFERENCE = "-1"
 
 #Available PACKAGECONFIG options are qt grc uhd

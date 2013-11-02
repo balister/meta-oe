@@ -1,0 +1,8 @@
+
+fetch binary build of fx3 firmware: http://nuand.com/fx3/latest.img
+Put in sysroots in sensible location (where? etc?)
+
+same with fpga,
+
+http://nuand.com/fpga/
+have an option to choose which fpga to ship, or just ship both?
